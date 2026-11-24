@@ -62,7 +62,6 @@ js/                   модули: сцена, контроли, решавач
 vendor/mediapipe/     MediaPipe runtime и модел (локално, без CDN)
 vendor/smartcube/     библиотека за „умния“ куб + лиценз
 docs/                 документация, презентация и фигури
-REALISTIC-MODE.md     описание на Grab режима (управление с ръце)
 ```
 
 Основни модули: `main.js`/`game.js` (състояния и менюта), `world.js`/`cube.js` (сцена, 27 части, 54 стикера), `controls.js` (един вход за всички източници), `tutorial-solver.js`/`tutorial.js` (решавач и урок), `hand-tracking.js`/`hand-hologram.js` (MediaPipe и прицел), `smartcube.js` (Bluetooth).
